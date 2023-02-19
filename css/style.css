@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/********* Start Display Temp *********/ 
+.display-temp{
+    background-image: url(../images/bg-disTemp.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.display-temp .layer{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/********* Start Search Input *********/ 
+input,
+textarea {
+    background-color: rgb(129 143 158) !important;
+    color: #fff !important;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+    border-color: #fff !important;
+}
+/********* End Search Input *********/ 
+.display-temp .temp-card{
+    border-radius: 8px;
+}
+.display-temp .temp-card {
+    background-color: #11282c;
+}
+.display-temp .temp-card .day-and-date {
+    background-color: #374850;
+    color: #bfc1c8;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+.display-temp .temp-card .day-and-date p {margin: 0 !important;}
+.display-temp .nextDay-card {
+    background-color: #50518a;
+    transition: all 0.3s;
+}
+
+.display-temp .nextDay-card:hover{background-color: #2f555c;}
+/********* End Display Temp *********/ 
+
+nav h1{
+    font-size: 16px;
+}
+nav small{
+    font-size: 12px;
+}
+.nav-item a{
+    transition: all 0.3s;
+}
+.nav-item :hover{
+    border: #009ad8 1px solid;
+    color: #009ad8;
+    border-radius:30px;
+}
+.navbar{
+    background-color: #39546acc;
+}
